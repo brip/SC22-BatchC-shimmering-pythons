@@ -17,5 +17,5 @@
 {"cell_type":"code","exec_count":41,"id":"77102e","input":"fig = px.scatter(data,x=\"Time\",y=\"Delay\",size=\"Length\",color=\"AirportFrom\",hover_name=\"Airline\",log_x=True,size_max=60)\nfig.show()","output":{"0":{"data":{"iframe":"be86e91af98b55ac711bc41efd57ac08c1183556"},"exec_count":41,"output_type":"execute_result"}},"pos":7,"type":"cell"}
 {"cell_type":"code","exec_count":44,"id":"7f3ef4","input":"bubble_df = data.groupby(\"Time\").agg(\"count\").reset_index()\nfig = px.scatter(bubble_df,x=\"Time\",y=\"Delay\",size=\"Length\",color=\"AirportFrom\",hover_name=\"Airline\")\nfig.show()","output":{"0":{"data":{"iframe":"f95031b97f72c3237864ec354869e68d408bc93c"},"exec_count":44,"output_type":"execute_result"}},"pos":8,"type":"cell"}
 {"cell_type":"code","exec_count":9,"id":"a076fc","input":"columns_show = [\"AirportFrom\",\"Delay\"]\ndelay_condition = (data[\"Delay\"] == 1)\ndelay = data[delay_condition]\ndelay = data[delay_condition].sort_values(by=(\"AirportFrom\"), axis=0, ascending=True)\naf_delay_hist = px.histogram(delay[columns_show], x=\"AirportFrom\", y=\"Delay\", title=\"AirportFrom\")\naf_delay_hist.show()","output":{"0":{"data":{"iframe":"04f476b8663bef074305823d1b4d29752ef0ca2c"},"exec_count":9,"output_type":"execute_result"}},"pos":11,"type":"cell"}
-{"id":0,"time":1658782041760,"type":"user"}
-{"last_load":1658779345119,"type":"file"}
+{"id":0,"time":1658856035896,"type":"user"}
+{"last_load":1658866630269,"type":"file"}
