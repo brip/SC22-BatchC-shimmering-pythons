@@ -41,5 +41,5 @@
 {"cell_type":"markdown","id":"e98192","input":"The input function also lets us add a prompt by typing what we want to send to the user in the parenteses as we can see below.","pos":5,"type":"cell"}
 {"cell_type":"markdown","id":"eb7392","input":"Lets go ahead and get started. I'll start by breaking up the project into 3 sections. The first section will cover getting input from the user and changing data types in python. The second section will cover generating random numbers in python. The third section will cover loops and implementing the challenge part of our project","pos":1,"type":"cell"}
 {"cell_type":"markdown","id":"efd2ae","input":"Our first for loop will run the indented block of code 5 times, we can see this in the output where the print statement is run 5 times","pos":21,"type":"cell"}
-{"id":0,"time":1658350582682,"type":"user"}
-{"last_load":1658521795028,"type":"file"}
+{"id":0,"time":1658771394963,"type":"user"}
+{"last_load":1658771394334,"type":"file"}

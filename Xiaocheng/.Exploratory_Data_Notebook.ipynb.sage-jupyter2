@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e4b4a9","input":"Sometimes column names have extra spaces or we can't see all of them at first, lets print them and get the shape of each to see how much data we are dealing with. <br>(#Rows, #Columns)","pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"f3e440","input":"Now we check and see there are no more null values!","pos":28,"type":"cell"}
 {"cell_type":"markdown","id":"f9386e","input":"After searching Manually, Northwestern College is in Iowa & Sterling College is in Kansas. <br> This shows the importance of double checking your data. <br> I will drop the 'state column' as the 'state_name' column is the accurate one and state_code is unnecessary.","pos":43,"type":"cell"}
-{"id":0,"time":1658350324042,"type":"user"}
-{"last_load":1658521795282,"type":"file"}
+{"id":0,"time":1658782193686,"type":"user"}
+{"last_load":1658782191682,"type":"file"}

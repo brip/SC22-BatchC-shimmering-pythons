@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"f85ac8","input":"We also want information on what data TYPE each of the columns are","pos":17,"type":"cell"}
 {"cell_type":"markdown","id":"fbd40c","input":"Now we have a 'state' and 'state_name' column that look duplicative, lets check.","pos":36,"type":"cell"}
 {"cell_type":"markdown","id":"ff6979","input":"Add any other filters you can think of to the filters","pos":57,"type":"cell"}
-{"id":0,"time":1658511416952,"type":"user"}
-{"last_load":1658511417366,"type":"file"}
+{"id":0,"time":1658773239573,"type":"user"}
+{"last_load":1658773239758,"type":"file"}
