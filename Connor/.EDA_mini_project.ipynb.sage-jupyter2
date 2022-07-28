@@ -52,5 +52,5 @@
 {"cell_type":"markdown","id":"fdfed0","input":"**TODO:** Let's make it look even better. Copy your function from above but add another argument to the function by setting the `color=\"Species\"`. Not sure what this means? Get to the scatter plots page on plotly and scroll down to the \"Setting size and color with column names\" section.\n\n","pos":44,"type":"cell"}
 {"cell_type":"raw","id":"243ba4","input":"What do these columns mean?\nThe name of the subject, which sample it is, what species it is, what region and island it lives on/in, its stage of life, the ID it was given, whether it finished having a clutch, date its egg was formed, culmen and flipper dimensions, body mass (essentially weight), sex, and the measure of two isotopes (not sure what this one is).\n\n\n\n\n\n","pos":11,"type":"cell"}
 {"cell_type":"raw","id":"7ed990","input":"Write up some descriptions for your findings here....\nIn general, most of the values increase with each other. However, culmen depth seems to divide into two extremes, where there is no in between. \n\n\n\n","pos":51,"type":"cell"}
-{"id":0,"time":1658784272064,"type":"user"}
-{"last_load":1658784273517,"type":"file"}
+{"id":0,"time":1658952930328,"type":"user"}
+{"last_load":1658952930200,"type":"file"}

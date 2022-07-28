@@ -102,5 +102,5 @@
 {"cell_type":"markdown","id":"f24b28","input":"In the block below, create a function that takes in a list and prints out each element 1 at a time. For example, if the input was ['Dog', 'Cat', 'Hamster'], the output should be\n\nDog\n\nCat\n\nHamster","pos":72,"type":"cell"}
 {"cell_type":"markdown","id":"fa1711","input":"You can also get various details about the dataframe with the following functions.\n","pos":95,"type":"cell"}
 {"cell_type":"markdown","id":"fa22aa","input":"Now for if statements. The if-elif-else statement is used to conditionally execute a statement or a block of statements. Conditions can be true or false, execute one thing when the condition is true, something else when the condition is false.","pos":43,"type":"cell"}
-{"id":0,"time":1658514410471,"type":"user"}
-{"last_load":1658520146501,"type":"file"}
+{"id":0,"time":1658958962876,"type":"user"}
+{"last_load":1658958959270,"type":"file"}

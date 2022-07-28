@@ -1,0 +1,6 @@
+{"backend_state":"running","connection_file":"/projects/32f31ee3-50e6-4896-a9de-cba73af32175/.local/share/jupyter/runtime/kernel-c5a327e6-8e8f-46fc-a1d1-aa291211b834.json","kernel":"ds_env","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"end":1658868400618,"exec_count":1,"id":"253b87","input":"import numpy as np\nimport matplotlib.pyplot as plt\nimport pandas as pd\nimport seaborn as sns\nimport statistics","kernel":"ds_env","pos":0,"start":1658868398731,"state":"done","type":"cell"}
+{"end":1658869160028,"exec_count":3,"id":"ae6743","input":"data = 'Data/Airlines.csv'\nAirData = pd.read_csv(data)","kernel":"ds_env","pos":1,"start":1658869159392,"state":"done","type":"cell"}
+{"id":"cb6fa7","input":"dummies = pd.get_dummies(AirData[\"diagnosis\"])\ndummies.head()","pos":2,"type":"cell"}
+{"id":0,"time":1658868262743,"type":"user"}
+{"last_load":1658868259956,"type":"file"}

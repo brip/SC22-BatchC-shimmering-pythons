@@ -107,5 +107,5 @@
 {"cell_type":"markdown","id":"f5a025","input":"Create a few float variables here, then try to add them together, subtract them, multiply them and divide them to see what happens. You may get an error, and thats okay. Its important to know what can and can't be done with a type of data.","pos":17,"type":"cell"}
 {"cell_type":"markdown","id":"fb69c0","input":"Next, we'll take a look at while loops. In general, you can make a while loop do anything that a for loop can do but with slightly different syntax, so if you find yourself understanding while loops better than for loops, you can just focus on using while loops. \n\n","pos":42,"type":"cell"}
 {"cell_type":"markdown","id":"fc68fc","input":"Alternatively you can look at just 1 row at a time by calling it similarly to a dictionary\n","pos":98,"type":"cell"}
-{"id":0,"time":1658381886625,"type":"user"}
-{"last_load":1658381886963,"type":"file"}
+{"id":0,"time":1658956418357,"type":"user"}
+{"last_load":1658957802114,"type":"file"}
