@@ -75,7 +75,7 @@ for (var x = 0; x < amountOfFlaps; x++) {
 
 div.innerHTML = html;
 
-// Set up more stuff ///////////////////////////////////////
+// Set up more stuff
 a1 = document.querySelectorAll(".top");
 a2 = document.querySelectorAll(".bottom");
 b1 = document.querySelectorAll(".nextFull");
@@ -86,7 +86,7 @@ for (var x = 0; x < a1.length; x++) {
   b2[x].style.animationDuration = speed + "s";
 }
 
-// And even more ///////////////////////////////////////////
+// And even more
 char = [
   "A",
   "B",
@@ -147,7 +147,7 @@ for (var x = 0; x < amountOfFlaps; x++) {
   (flag[x] = false), (flag2 = true);
 }
 
-// Flip them flaps /////////////////////////////////////////
+// Flip them flaps
 setInterval(function () {
   for (var x = 0; x < amountOfFlaps; x++) {
     if (b1[x].innerHTML == endStr[x]) dontFlipIt(x);
@@ -163,9 +163,8 @@ setInterval(function () {
   }
 }, speed * 1000);
 
-////////////////////////////////////////////////////////////
-// Flap flipping functions /////////////////////////////////
-////////////////////////////////////////////////////////////
+// Flap flipping functions
+
 function flipIt(x) {
   a1[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
   a2[x].innerHTML = char[strCount[x] == 0 ? char.length - 1 : strCount[x] - 1];
@@ -201,4 +200,30 @@ function changeDestination() {
     endStr = beginStr.slice();
     beginStr = tempArr.slice();
   }, 3000);
+}
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }

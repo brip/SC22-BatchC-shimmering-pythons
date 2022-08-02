@@ -4058,6 +4058,14 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
+/* Nikk addition! */
+.navbar-brand2 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 0.3rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -7665,7 +7673,8 @@ textarea.form-control-lg {
   line-height: 2 !important;
 }
 
-.text-start {
+.
+-start {
   text-align: left !important;
 }
 
@@ -11300,6 +11309,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  text-align: center;
 }
 
 .text-white-75 {
@@ -11472,7 +11482,7 @@ header.masthead h1, header.masthead .h1 {
 .center {
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 25%;
   /* bottom: 2000px; */
   margin-top: -50px;
   width: 100%;
@@ -11574,3 +11584,7 @@ div {
 }
 
 /* End of Nikk's animation */
+
+.Italics {
+  color: #fac213;
+}
